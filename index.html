@@ -155,14 +155,7 @@
 
         // Función para manejar la suscripción a través de Wompi (Producción)
         function handleSubscribe() {
-            const wompiUrl = 'https://checkout.wompi.co/v1/checkout?public_key=pub_prod_TU_CLAVE_PUBLICA&amount=7900&currency=COP&reference=suscripago_web_' + Date.now();
-            window.open(wompiUrl, '_blank');
-        }
-
-        // Configurar enlaces de descarga
-        document.getElementById('app-store-link')?.setAttribute('href', APP_STORE_URL);
-        document.getElementById('google-play-link')?.setAttribute('href', GOOGLE_PLAY_URL);
-        document.querySelectorAll('#mobile-menu .lang-link').forEach(el => {
+                const wompiUrl = 'https://checkout.wompi.co/v1/checkout?public_key=pub_prod_m5jFyDXCLEk2TEhpDHIidE2LpmmzYvIn&amount=7900&currency=COP&reference=suscripago_web_' + Date.now();
             if (el.getAttribute('data-key') === 'btn-download') {
                 el.setAttribute('href', '#download');
             }
