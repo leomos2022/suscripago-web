@@ -121,7 +121,7 @@
             <div class="card rounded-2xl p-8 border-2 border-yellow-400">
                 <div class="inline-block bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-sm font-semibold mb-4 lang-text" data-key="popular">🔥 MÁS POPULAR</div>
                 <h3 class="text-2xl font-bold mb-2 text-yellow-400 lang-text" data-key="plan-pro">Pro</h3>
-                <p class="text-4xl font-bold mb-6">$7.900 <span class="text-sm text-gray-400 lang-text" data-key="currency-month">COP/mes</span></p>
+                <p class="text-4xl font-bold mb-6">$9.900 <span class="text-sm text-gray-400 lang-text" data-key="currency-month">COP/mes</span></p>
                 <ul class="space-y-3 mb-8">
                     <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-400"></i> <span class="lang-text" data-key="pro-1">Suscripciones ilimitadas</span></li>
                     <li class="flex items-center gap-2"><i class="fas fa-check text-yellow-400"></i> <span class="lang-text" data-key="pro-2">Exportar a Excel</span></li>
@@ -155,7 +155,7 @@
 
         // Función para manejar la suscripción a través de Wompi (Producción)
         function handleSubscribe() {
-            const wompiUrl = 'https://checkout.wompi.co/v1/checkout?public_key=pub_test_Q8DtXDQWxmA3bNHHOCVLp5rkDPHGwciI&amount=7900&currency=COP&reference=suscripago_web_' + Date.now();
+            const wompiUrl = 'https://checkout.wompi.co/v1/checkout?public_key=pub_prod_m5jFyDXCLEk2TEhpDHIidE2LpmmzYvIn&amount=9900&currency=COP&reference=suscripago_web_' + Date.now();
             window.open(wompiUrl, '_blank');
         }
 
