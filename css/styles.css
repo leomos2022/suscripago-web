@@ -3,12 +3,16 @@
     --bg-card: rgba(255, 255, 255, 0.05);
     --text-primary: #FFFFFF;
     --border-color: rgba(255, 255, 255, 0.1);
+    --accent-color: #FFD700;
+    --accent-color-hover: #FFA500;
 }
 [data-theme="light"] {
     --bg-primary: #F8FAFC;
     --bg-card: #FFFFFF;
     --text-primary: #0F172A;
     --border-color: #E2E8F0;
+    --accent-color: #2F2FE4;
+    --accent-color-hover: #1A1A99;
 }
 body {
     background-color: var(--bg-primary);
@@ -48,3 +52,22 @@ body {
 .animate-fade-in { animation: fadeIn 1s ease-out; }
 .lang-selector { cursor: pointer; }
 .lang-selector:hover { opacity: 0.7; }
+
+[data-theme="light"] .text-yellow-400 {
+    color: var(--accent-color) !important;
+}
+
+[data-theme="light"] .bg-yellow-400,
+[data-theme="light"] .hover\:bg-yellow-500:hover {
+    background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-color-hover) 100%) !important;
+    color: #FFFFFF !important;
+}
+
+[data-theme="light"] .border-yellow-400 {
+    border-color: var(--accent-color) !important;
+}
+
+[data-theme="light"] .btn-gold {
+    background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-color-hover) 100%) !important;
+    color: #FFFFFF !important;
+}
