@@ -28,13 +28,11 @@
                 <a href="#beneficios" class="lang-link hover:text-yellow-400" data-key="nav-benefits">Beneficios</a>
                 <a href="#planes" class="lang-link hover:text-yellow-400" data-key="nav-plans">Planes</a>
                 <a href="#como-funciona" class="lang-link hover:text-yellow-400" data-key="nav-how">Cómo funciona</a>
-                
                 <div class="flex items-center space-x-2">
                     <button onclick="setLanguage('es')" class="lang-selector px-2 py-1 rounded" id="lang-es">ES</button>
                     <span>|</span>
                     <button onclick="setLanguage('en')" class="lang-selector px-2 py-1 rounded" id="lang-en">EN</button>
                 </div>
-                
                 <a href="#download" class="bg-yellow-400 text-gray-900 px-5 py-2 rounded-full font-semibold hover:bg-yellow-500 transition lang-link" data-key="btn-download">
                     Descargar
                 </a>
@@ -145,7 +143,14 @@
     </section>
 
     <footer class="container mx-auto px-6 py-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-        <p class="lang-text" data-key="footer">© 2026 SuscriPago. Hecho con 💛 en Colombia</p>
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+            <p class="lang-text mb-0" data-key="footer">© 2026 SuscriPago. Hecho con 💛 en Colombia</p>
+            <div class="flex flex-wrap justify-center gap-4 items-center">
+                <a href="mailto:leomoslab@gmail.com" class="legal-email hover:text-yellow-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg-primary)] rounded px-1" target="_blank" rel="noopener noreferrer" aria-label="Soporte por correo">Soporte</a>
+                <a href="/privacy" class="hover:text-yellow-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg-primary)] rounded px-1" aria-label="Política de Privacidad">Privacidad</a>
+                <a href="/terms" class="hover:text-yellow-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg-primary)] rounded px-1" aria-label="Términos y Condiciones">Términos</a>
+            </div>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
