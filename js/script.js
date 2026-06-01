@@ -12,8 +12,8 @@ const translations = {
         'plans-title': 'Planes para', 'plan-free': 'Gratis', 'currency': 'COP',
         'free-1': 'Hasta 6 suscripciones', 'free-4': 'Exportar a Excel',
         'popular': '🔥 MÁS POPULAR', 'plan-pro': 'Pro',
-        'currency-month': 'COP/mes', 'pro-1': 'Suscripciones ilimitadas', 'pro-2': 'Exportar a Excel', 'pro-3': 'Recordatorios WhatsApp', 'pro-4': 'Generación de reportes de gastos para uso contable',
-        'subscribe-btn': 'Suscribirme ahora',
+        'currency-month': 'COP', 'pro-1': 'Suscripciones ilimitadas', 'pro-2': 'Exportar a Excel', 'pro-3': 'Recordatorios WhatsApp', 'pro-4': 'Generación de reportes de gastos para uso contable',
+        'subscribe-btn': 'Obtener Pro',
         'how-title': '¿Cómo', 'how-title-end2': '?',
         'step-1': 'Descarga la app', 'step-2': 'Agrega tus suscripciones', 'step-3': 'Ahorra dinero',
         'footer': '© 2026 SuscriPago. Hecho con 💛 en Colombia'
@@ -30,8 +30,8 @@ const translations = {
         'plans-title': 'Plans for', 'plan-free': 'Free', 'currency': 'COP',
         'free-1': 'Up to 6 subscriptions', 'free-4': 'Export to Excel',
         'popular': '🔥 MOST POPULAR', 'plan-pro': 'Pro',
-        'currency-month': 'COP/month', 'pro-1': 'Unlimited subscriptions', 'pro-2': 'Export to Excel', 'pro-3': 'WhatsApp reminders', 'pro-4': 'Expense report generation for accounting use',
-        'subscribe-btn': 'Subscribe now',
+        'currency-month': 'COP', 'pro-1': 'Unlimited subscriptions', 'pro-2': 'Export to Excel', 'pro-3': 'WhatsApp reminders', 'pro-4': 'Expense report generation for accounting use',
+        'subscribe-btn': 'Get Pro',
         'how-title': 'How it', 'how-title-end2': '?',
         'step-1': 'Download app', 'step-2': 'Add subscriptions', 'step-3': 'Save money',
         'footer': '© 2026 SuscriPago. Made with 💛 in Colombia'
